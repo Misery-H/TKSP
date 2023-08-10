@@ -10,6 +10,7 @@ from torch.utils.data import TensorDataset
 from tqdm import tqdm
 from evaluate import  evaluation,diff_evaluation
 
+
 timestep = 5 # 时间步长
 batch_size = 32  # 批次大小
 input_dim = 3  # 每个步长对应的特征数量
